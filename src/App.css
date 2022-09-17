@@ -1,23 +1,25 @@
 body{
   background-color: #62c2c8;
 }
+
 .app{
   background-color: #dad9dd;
   min-height: 80vh;
   width: 400px;
   margin: 20px auto;
 }
+
 .crossed {
-  text-decoration: line-through 2px #FF2E63;
-  /* background-color: #f0f0f0; */
+  text-decoration: line-through 2px  #FF2E63;
   background-color: #ededed;
   width: 89%;
- 
 }
+
 h1{
   font-family: 'Raleway', sans-serif;
   color: #252A34;
 }
+
 ul, li{
   list-style-type: none;
   padding: 10 px;
@@ -25,6 +27,7 @@ ul, li{
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
+
 input{
   color: #252A34;
   font-size: 20px;
@@ -36,17 +39,12 @@ input{
   font-family: 'Raleway', sans-serif;
 }
 
-img{
-  /* border-radius: 50%; */
-  /* border-radius: 100px; */
- /* padding: 0; */
-}
-
 .container{
   display: flex;
   justify-content: center; 
   padding: 10px;
 }
+
 .image{
   display: flex;
   justify-content: center;
@@ -69,6 +67,14 @@ font-family: 'Raleway', sans-serif;
 .delete {
   background: #FF2E63;
   margin-bottom: 5px;
+}
+
+@media all and (max-width: 800px){
+  .crossed {
+  -webkit-text-decoration-line: line-through;
+  -webkit-text-decoration-color: #FF2E63;
+  -webkit-text-decoration-thickness: 2px;
+}
 }
 
 

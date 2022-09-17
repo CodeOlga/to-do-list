@@ -71,10 +71,10 @@ font-family: 'Raleway', sans-serif;
 
 @media all and (max-width: 800px){
   .crossed {
-  -webkit-text-decoration-line: line-through;
-  -webkit-text-decoration-color: #FF2E63;
-  -webkit-text-decoration-thickness: 2px;
-}
+    -webkit-text-decoration-line: line-through;
+    -webkit-text-decoration-color: #FF2E63;
+    -webkit-text-decoration-thickness: 2px;
+    }
 }
 
 
